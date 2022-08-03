@@ -48,16 +48,35 @@
   </header>
   <main>
     <!-- ******************
-             Thank You
+             Contact
     *********************** -->
-    <section class="intro text-dark p-5">
-      <div class="container-xl">
-        <div class="intro-text pb-5">
-          <h1 class="display-3 fw-light">Thank you for your message</h2>
-          <a href="index.html" class="btn btn-outline-primary btn-primary border rounded-pill p-3 border-primary py-2 px-4">Back to home</a>
+    <section class="contact text-dark p-5">
+      <div class="container-md">
+        <div class="contact-text border border-primary">
+          <p>Thank you! You have successfully sent your message!</p>
         </div>
-        <div class="intro-img">
-          <img class="mx-auto d-block p-3" src="img/gloria-wear-many-hats.png" alt="Gloria wears many hats">
+        <div class="contact-text">
+          <h1 class="display-3 fw-light">Hire Me</h1>
+          <p>Please feel free to reach me by submitting a direct message below. Or, contact me at my email at lee00812@algonquinlive.com or my mobile at 613-684-1008.</p>
+        </div>
+        <div class="form">
+            <form action="thankyou.html" method="get">
+                <div class="info">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="info">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="info">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Send me your message here : )!"></textarea>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-outline-primary btn-primary border rounded-pill p-3 border-primary py-2 px-5" type="submit">Send</button>
+                </div>
+            </form>
         </div>
         
       </div>
