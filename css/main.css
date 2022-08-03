@@ -1,0 +1,53 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+}
+
+
+:root{
+    --bs-primary: #F06C52;
+    --bs-primary-rgb: 240, 108, 82;
+    --bs-secondary: #FFFFFF;
+    --bs-secondary-rgb: 255, 255, 255;
+  }
+  /* Second, select the element and update the specific variable */
+  .btn-primary{
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+  }
+
+  .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+  }
+
+  /* ----------------------------------------
+          Portfolio Styles
+  ---------------------------------------- */
+
+  .btn-outline-primary {
+    --bs-btn-color: var(--bs-light);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-secondary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-active-color: var(--bs-dark);
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary);
+    --bs-btn-disabled-color: var(--bs-dark);
+  }
+  .navbar-nav .nav-link.active{
+    background-color: var(--bs-secondary);
+    color: var(--bs-dark);
+    padding: 1rem;
+  }
+  .navbar-nav .nav-link{
+    color: var(--bs-primary);
+  }
+
+  .navbar-nav{
+    display: flex;
+    justify-content: space-evenly;
+  }
