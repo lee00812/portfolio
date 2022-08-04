@@ -1,6 +1,6 @@
-  /* ----------------------------------------
-          Container and font Styles
-  ---------------------------------------- */
+  /* ------------------------------------------------------
+          Container, typography and color styles
+  ------------------------------------------------------*/
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -11,14 +11,13 @@ body {
   max-width: 1024px;
 }
 
-
 :root{
     --bs-primary: #F06C52;
     --bs-primary-rgb: 240, 108, 82;
     --bs-secondary: #FFFFFF;
     --bs-secondary-rgb: 255, 255, 255;
   }
-  /* updates the specific variable */
+
   .btn-primary{
     --bs-btn-bg: var(--bs-primary);
     --bs-btn-border-color: var(--bs-primary);
@@ -29,7 +28,7 @@ body {
   }
 
   /* ----------------------------------------
-          Portfolio Styles
+          active and hover styles
   ---------------------------------------- */
 
   .btn-outline-primary {
@@ -106,4 +105,22 @@ div .info {
     color: var(--bs-primary);
     
   }
+
+    /********************************************
+          footer menu displays on mobile only
+  *********************************************/
+  #footermenu .container-lg {
+    display: none;
+  }
 }
+
+@media screen and (min-width: 768px) {
+  .about .container-lg {
+    max-width: 70%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+
+}
+
