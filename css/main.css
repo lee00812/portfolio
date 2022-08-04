@@ -82,8 +82,17 @@ div .info {
   /* ----------------------------------------
           Media Query
   ---------------------------------------- */
+  @media screen and (max-width: 390px) {
+  .navbar-brand{
+    padding-left:15%;
+  }
+}
 
 @media screen and (min-width: 768px) {
+  .navbar-brand{
+    padding-left: 2rem;
+  }
+  
   .navbar-nav{
     display: flex;
     justify-content: space-evenly;
