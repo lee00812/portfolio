@@ -7,8 +7,17 @@ body {
   font-weight: 400;
 }
 
+
+
 .container-lg {
   max-width: 1024px;
+}
+
+main{
+  background: -webkit-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -moz-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
 }
 
 :root{
@@ -58,7 +67,6 @@ body {
     background-color: var(--bs-secondary);
     color: var(--bs-primary);
   }
- 
 
 .about-img {
   max-width: 100%;
@@ -121,6 +129,14 @@ div .info {
   #footermenu .container-lg {
     display: none;
   }
+
+      /********************************************
+          displays grid on desktop version
+  *********************************************/
+.intro .container-lg {
+  display: grid;
+  grid-template-columns: auto auto;
+}
 }
 
 @media screen and (min-width: 768px) {
