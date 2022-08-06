@@ -12,7 +12,7 @@ body {
 }
 
 .main-bg{
-  background: -webkit-linear-gradient(270deg, #339cc1 23%, rgba(51, 156, 193, 0) 23%), -webkit-linear-gradient(270deg, #51bfe0 36%, #60d1ef 36%, #81cfe2 66%, #acddea 66%);
+  background: -webkit-linear-gradient(70deg, #f4e758 23%, rgba(244, 193, 94, 0) 23%), -webkit-linear-gradient(40deg, #f4c15e 36%, #ffffff 36%);
 }
 
 :root{
