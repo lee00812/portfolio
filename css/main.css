@@ -7,17 +7,12 @@ body {
   font-weight: 400;
 }
 
-
-
 .container-lg {
   max-width: 1024px;
 }
 
-main{
-  background: -webkit-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
-  background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
-  background: -moz-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
-  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+.main-bg{
+  background: -webkit-linear-gradient(270deg, #339cc1 23%, rgba(51, 156, 193, 0) 23%), -webkit-linear-gradient(270deg, #51bfe0 36%, #60d1ef 36%, #81cfe2 66%, #acddea 66%);
 }
 
 :root{
