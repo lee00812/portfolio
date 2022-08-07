@@ -126,6 +126,12 @@ div .info {
     
   }
 
+  .about .container-lg {
+    max-width: 70%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
     /********************************************
           footer menu displays on mobile only
   *********************************************/
@@ -141,6 +147,7 @@ div .info {
   grid-template-columns: auto auto;
 }
 }
+
 
 @media screen and (min-width: 960px) {
 .mywork .container-lg:nth-child(2),
@@ -161,9 +168,9 @@ div .info {
 }
 }
 
-@media screen and (min-width: 768px) {
-  .about .container-lg {
-    max-width: 70%;
+@media screen and (min-width: 1024px) {
+  .intro .container-lg {
+    max-width: 85%;
     padding-left: 5rem;
     padding-right: 5rem;
   }
