@@ -63,6 +63,9 @@ body {
     color: var(--bs-primary);
   }
 
+    /* ----------------------------
+          image size and padding
+  ---------------------------------*/
 .about-img {
   max-width: 100%;
 }
@@ -82,10 +85,15 @@ div .info {
   width: 100%;
 }
 
+.mywork .container-lg h1 {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
   /* ----------------------------------------
           Media Query
   ---------------------------------------- */
-  @media screen and (max-width: 390px) {
+@media screen and (max-width: 390px) {
   .navbar-brand{
     padding-left:15%;
   }
@@ -131,6 +139,25 @@ div .info {
 .intro .container-lg {
   display: grid;
   grid-template-columns: auto auto;
+}
+}
+
+@media screen and (min-width: 960px) {
+.mywork .container-lg:nth-child(2),
+.mywork .container-lg:nth-child(4) {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  column-gap: 4%;
+}
+
+.mywork .container-lg:nth-child(2) h1,
+.mywork .container-lg:nth-child(4) h1 {
+  padding: 0;
+}
+
+.mywork .container-lg:nth-child(2),
+.mywork .container-lg:nth-child(4){
+  padding-top: 4rem;
 }
 }
 
