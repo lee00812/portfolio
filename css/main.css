@@ -74,7 +74,11 @@ body {
     /* ----------------------------
           image size and padding
   ---------------------------------*/
-.about-img {
+.intro-img div img{
+  max-width: 100%;
+}
+
+  .about-img {
   max-width: 100%;
 }
 
@@ -159,6 +163,10 @@ div .info {
 .intro .container-lg {
   display: grid;
   grid-template-columns: auto auto;
+}
+
+.intro-img div img{
+  max-width: 100%;
 }
 }
 
