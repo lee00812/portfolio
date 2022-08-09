@@ -12,7 +12,15 @@ body {
 }
 
 .main-bg{
-  background: -webkit-linear-gradient(70deg, #f4e758 23%, rgba(244, 193, 94, 0) 23%), -webkit-linear-gradient(40deg, #f4c15e 36%, #ffffff 36%);
+  background: -webkit-linear-gradient(70deg, #f4e758 28%, rgba(244, 193, 94, 0) 28%), -webkit-linear-gradient(50deg, #f4c15e 36%, #ffffff 36%);
+}
+
+.about-bg,
+.mywork-bg {
+  border-top: 1rem solid #F06C52;
+  border-top: 1rem solid #F06C52;
+  border-left: 1rem solid #F06C52;
+  border-right: 1rem solid #F06C52;
 }
 
 :root{
@@ -85,8 +93,14 @@ div .info {
   width: 100%;
 }
 
-.mywork .container-lg h1 {
+.mywork .container-lg h1,
+.mywork .container-lg h2,
+.mywork .container-lg h3{
   padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.mywork-readmore {
   padding-bottom: 2rem;
 }
 
@@ -157,8 +171,8 @@ div .info {
   column-gap: 4%;
 }
 
-.mywork .container-lg:nth-child(2) h1,
-.mywork .container-lg:nth-child(4) h1 {
+.mywork .container-lg:nth-child(2) h2,
+.mywork .container-lg:nth-child(4) h2 {
   padding: 0;
 }
 
