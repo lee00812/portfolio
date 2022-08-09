@@ -157,17 +157,7 @@ div .info {
     display: none;
   }
 
-      /********************************************
-          displays grid on desktop version
-  *********************************************/
-.intro .container-lg {
-  display: grid;
-  grid-template-columns: auto auto;
-}
 
-.intro-img div img{
-  max-width: 100%;
-}
 }
 
 
