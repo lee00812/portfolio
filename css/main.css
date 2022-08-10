@@ -173,19 +173,22 @@ body {
 
 @media screen and (min-width: 960px) {
 .mywork .container-lg:nth-child(2),
-.mywork .container-lg:nth-child(4) {
+.mywork .container-lg:nth-child(4),
+.mywork .container-lg:nth-child(6) {
   display: grid;
   grid-template-columns: 48% 48%;
   column-gap: 4%;
 }
 
 .mywork .container-lg:nth-child(2) h2,
-.mywork .container-lg:nth-child(4) h2 {
+.mywork .container-lg:nth-child(4) h2,
+.mywork .container-lg:nth-child(6) h2 {
   padding: 0;
 }
 
 .mywork .container-lg:nth-child(2),
-.mywork .container-lg:nth-child(4){
+.mywork .container-lg:nth-child(4),
+.mywork .container-lg:nth-child(6){
   padding-top: 4rem;
 }
 }
