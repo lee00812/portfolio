@@ -82,17 +82,17 @@ body {
   max-width: 100%;
 }
 
-div .info {
+.fcf-label {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.info input {
+.fcf-input-group input {
   height: 40px;
   width: 100%;
 }
 
-.info textarea {
+.fcf-input-group textarea {
   height: 150px;
   width: 100%;
 }
@@ -106,6 +106,10 @@ div .info {
 
 .mywork-readmore {
   padding-bottom: 2rem;
+}
+
+.fcf-form-class div:nth-child(7) {
+  padding-top: 2rem;
 }
 
   /* ----------------------------------------
@@ -181,7 +185,8 @@ div .info {
 }
 
 @media screen and (min-width: 1024px) {
-  .intro .container-lg {
+  .intro .container-lg,
+  .contact .container-lg {
     max-width: 85%;
     padding-left: 5rem;
     padding-right: 5rem;
