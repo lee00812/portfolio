@@ -18,7 +18,6 @@ body {
 .about-bg,
 .mywork-bg {
   border-top: 1rem solid #F06C52;
-  border-top: 1rem solid #F06C52;
   border-left: 1rem solid #F06C52;
   border-right: 1rem solid #F06C52;
 }
@@ -97,6 +96,10 @@ body {
   width: 100%;
 }
 
+.fcf-form-class div:nth-child(5) {
+  padding-top: 2rem;
+}
+
 .mywork .container-lg h1,
 .mywork .container-lg h2,
 .mywork .container-lg h3{
@@ -108,9 +111,6 @@ body {
   padding-bottom: 2rem;
 }
 
-.fcf-form-class div:nth-child(5) {
-  padding-top: 2rem;
-}
 
   /* ----------------------------------------
           Media Query
@@ -149,7 +149,7 @@ body {
   }
 
   .about .container-lg,
-  .contact .container-lg {
+  .contact .container-lg,{
     max-width: 70%;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -188,17 +188,21 @@ body {
 @media screen and (min-width: 1024px) {
   .intro .container-lg,
   .contact .container-lg {
-    max-width: 85%;
+    max-width: 75%;
     padding-left: 5rem;
     padding-right: 5rem;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .contact .container-lg {
-    max-width: 55%;
+  .about .container-lg,
+  .contact .container-lg,
+  .intro .container-lg {
+    max-width: 65%;
     padding-left: 5rem;
     padding-right: 5rem;
   }
+
+
 }
 
