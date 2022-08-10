@@ -188,7 +188,7 @@ body {
 @media screen and (min-width: 1024px) {
   .intro .container-lg,
   .contact .container-lg {
-    max-width: 75%;
+    max-width: 65%;
     padding-left: 5rem;
     padding-right: 5rem;
   }
