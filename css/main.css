@@ -11,7 +11,8 @@ body {
   max-width: 1024px;
 }
 
-.main-bg{
+.main-bg,
+.contact-bg{
   background: -webkit-linear-gradient(70deg, #f4e758 28%, rgba(244, 193, 94, 0) 28%), -webkit-linear-gradient(50deg, #f4c15e 36%, #ffffff 36%);
 }
 
@@ -20,6 +21,10 @@ body {
   border-top: 1rem solid #F06C52;
   border-left: 1rem solid #F06C52;
   border-right: 1rem solid #F06C52;
+}
+
+.mywork-bg {
+  border-bottom: 1rem solid #F06C52;
 }
 
 :root{
