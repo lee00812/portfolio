@@ -148,7 +148,8 @@ body {
     
   }
 
-  .about .container-lg {
+  .about .container-lg,
+  .contact .container-lg {
     max-width: 70%;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -191,7 +192,13 @@ body {
     padding-left: 5rem;
     padding-right: 5rem;
   }
+}
 
-
+@media screen and (min-width: 1280px) {
+  .contact .container-lg {
+    max-width: 55%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 }
 
