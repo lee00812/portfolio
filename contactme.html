@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gloria's Portfolio</title>
+    <!-- **** Inserts Google Font Link **** -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+       <!-- **** Insert Bootstrap Link **** --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  
+  <body>
+    
+      <!-- **** Header Section **** -->
+    <header>
+      <!-- ************************************
+               Navbar & Hamburger Menu
+      ***************************************** -->
+
+      <nav class="navbar navbar-expand-md bg-primary navbar-light text-light">
+        <div class="container-lg px-0">
+          <a class="navbar-brand mx-auto d-block" href="index.html"><img src="img/gloria-logo-200px.png" alt="Gloria's Design"></a>
+          <button class="navbar-toggler p-3 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon pr-3"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav flex-grow-1 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-center px-4" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-cente px-4" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center px-4" href="mywork.html">My Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center px-4" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+    <!-- ******************
+             Contact
+    *********************** -->
+  <main class="main-bg">
+    <section class="contact text-dark p-5">
+      <div class="container-lg">
+        <div class="contact-text text-center">
+          <h1 class="display-3 fw-light">Hire Me</h1>
+          <p>Please feel free to reach me by submitting a direct message at the form below. Thank you for stopping by!</p>
+        </div>
+        <div class="form">
+          <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <label for="Name" class="fcf-label">Name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Email</label>
+            </div>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Message</label>
+            </div>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" placeholder="Send me your message here : ) !" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block btn btn-outline-primary btn-primary border rounded-pill p-3 border-primary py-2 px-5">Send</button>
+            </div>  
+          </form>
+        </div>
+      </div>
+     </section>
+  </main>
+    <!-- ******************
+             Footer
+    *********************** -->
+    <footer class="bg-primary text-light" id="footermenu">
+      <div class="container-lg px-0 mx-auto">
+        <ul class="navbar-nav flex-grow-1 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-center px-4" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-cente px-4" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center px-4" href="mywork.html">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center px-4" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container-fluid py-3">
+        <div class="row">
+          <div class="col text-center">
+            <p>&copy; Copyright Gloria MC Lee, 2022</p>
+            </div>
+        </div>
+      </div>
+    </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>
